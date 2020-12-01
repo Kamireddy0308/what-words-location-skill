@@ -5,9 +5,9 @@ from mycroft.utils.log import getLogger
 
 LOGGER = getLogger(__name__)
 def what_three_words():
-    x = 'bricht'
-    y = 'schach'
-    z = 'bauen'
+    x = 'ruled'
+    y = 'reversed'
+    z = 'owes'
     value = requests.get(
         'https://api.what3words.com/v3/convert-to-coordinates?words=' + x + '.' + y + '.' + z + '&key=4WBPDAOJ',
         verify=False)
