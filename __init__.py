@@ -9,7 +9,7 @@ def what_three_words():
     y = 'schach'
     z = 'bauen'
     value = requests.get(
-        'https://api.what3words.com/v3/convert-to-coordinates?words=' + x + '.' + y + '.' + z + '&key=AVDCNJP3',
+        'https://api.what3words.com/v3/convert-to-coordinates?words=' + x + '.' + y + '.' + z + '&key=4WBPDAOJ',
         verify=False)
     json_value = value.json()
     response = json_value['nearestPlace']
